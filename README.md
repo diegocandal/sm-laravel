@@ -1,3 +1,28 @@
+# Tracker-api
+
+## Create your .env file and insert the correct api-url
+```
+cp .env.example .env
+```
+
+UPDATE .env with your database information
+
+## Project setup
+```
+composer install
+```
+
+## Create database
+```
+php artisan migrate
+```
+
+## Run localhost development environment
+```
+php artisan serve
+```
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
